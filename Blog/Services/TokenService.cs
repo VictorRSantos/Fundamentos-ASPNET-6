@@ -36,6 +36,7 @@ namespace Blog.Services
                 {
                     new (ClaimTypes.Name, "victor"), // User.Identity.Name
                     new (ClaimTypes.Role, "admin"), // User.IsRole
+                    new (ClaimTypes.Role, "user"),
                     new ("fruta","banana")//Chave, Valor
 
                 }),
