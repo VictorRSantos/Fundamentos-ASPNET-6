@@ -14,6 +14,7 @@ namespace Blog.Controllers
         [HttpGet("v1/categories")]
         public async Task<IActionResult> GetAsync([FromServices] BlogDataContext context)
         {
+
             try
             {
                 var categories = await context.Categories.ToListAsync();

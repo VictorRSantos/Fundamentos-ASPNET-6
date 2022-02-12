@@ -1,4 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using Blog.Models;
 using Microsoft.IdentityModel.Tokens;
@@ -30,10 +31,18 @@ namespace Blog.Services
             //3°
             var tokenDescriptor = new SecurityTokenDescriptor
             {
+                // Subject(Assunto), dentro subject podemos colocar um objeto do tipo ClaimIdentity(Claims - Afirmação)
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new (ClaimTypes.Name, "victor"), // User.Identity.Name
+                    new (ClaimTypes.Role, "admin"), // User.IsRole
+                    new ("fruta","banana")//Chave, Valor
+
+                }),
 
                 Expires = DateTime.UtcNow.AddHours(8), //Tempo de duração do Token
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature), //Server para desencriptar |encriptar a chave e gerar token
-                
+
             };
 
             //4°
