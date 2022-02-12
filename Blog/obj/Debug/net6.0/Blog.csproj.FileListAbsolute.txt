@@ -7,6 +7,7 @@ S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Blog.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\ref\Blog.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Blog.pdb
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Humanizer.dll
+S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll

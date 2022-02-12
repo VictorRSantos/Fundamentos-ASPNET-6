@@ -28,7 +28,13 @@ namespace Blog.Services
             var key = Encoding.ASCII.GetBytes(Configuration.JwtKey);
 
             //3°
-            var tokenDescriptor = new SecurityTokenDescriptor();
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+
+                Expires = DateTime.UtcNow.AddHours(8), //Tempo de duração do Token
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature), //Server para desencriptar |encriptar a chave e gerar token
+                
+            };
 
             //4°
             var token = tokenHandler.CreateToken(tokenDescriptor);
