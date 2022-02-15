@@ -1,3 +1,4 @@
+using Blog.Attributes;
 using Microsoft.AspNetCore.Mvc;
 
 // Health Check 
@@ -9,6 +10,7 @@ namespace Blog.Controllers
     {
 
         [HttpGet("")]
+        // [ApiKey]
         public IActionResult Get() => Ok(StatusCodes.Status200OK);
 
 

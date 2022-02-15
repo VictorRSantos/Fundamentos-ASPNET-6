@@ -21,6 +21,7 @@ S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Pro
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\SecureIdentity.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\System.Drawing.Common.dll
 S:\Balta.io\FundamentosASPNET6\Blog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
