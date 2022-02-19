@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CPKjX7XLC4EcZsDnydc15fjyhbA/mfhroFDwjfqPBdw=",
+  "Hash": "553fTZlmHBtbBmBU5DZzUn00fF+Q1+DKHRGCyL1E2Hw=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "S:\\Balta.io\\FundamentosASPNET6\\Blog\\wwwroot\\images\\57ead024-5212-4535-b4ac-d2d1264adaa5.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\Balta.io\\FundamentosASPNET6\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "images/57ead024-5212-4535-b4ac-d2d1264adaa5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\57ead024-5212-4535-b4ac-d2d1264adaa5.jpg"
+    }
+  ]
 }
